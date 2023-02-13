@@ -212,5 +212,10 @@ namespace Calculator
         {
             textBox.Text = "0";
         }
+
+        private void btn_dot_Click(object sender, EventArgs e)
+        {
+            textBox.Text = textBox.Text + ".";
+        }
     }
 }

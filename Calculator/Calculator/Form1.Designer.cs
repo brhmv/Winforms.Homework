@@ -210,6 +210,7 @@
             this.btn_dot.TabIndex = 0;
             this.btn_dot.Text = ".";
             this.btn_dot.UseVisualStyleBackColor = false;
+            this.btn_dot.Click += new System.EventHandler(this.btn_dot_Click);
             // 
             // btn_c
             // 
